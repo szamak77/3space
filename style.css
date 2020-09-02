@@ -1,11 +1,18 @@
-body {
-    background-color: turquoise ;
+.homepage  {
+    background-color: turquoise;
+    margin: 0
+    padding: 0;
+    border: 0;
+    font: inherit;
 }
 
-.wraper {
+.wrapper {
     display: flex;
 }
 
-.wraper>div {
+.wrapper > div {
+    
+    background-color: violet;
     flex: 1;
+    
 }
